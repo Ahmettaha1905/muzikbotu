@@ -50,4 +50,4 @@ bot.command({
   code: `
 $djsEval[message.member.voice.channel.leave();]
  `
-});
+}); 
