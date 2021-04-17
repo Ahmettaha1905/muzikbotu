@@ -35,6 +35,7 @@ bot.command({
   name: "prefix",
   code: `$setServerVar[prefix;$message]
 $description[Prefix **$message** Oldu]
+$argsCheck[>1;Prefix Ne Olucak]
 $onlyPerms[admin;Bunun İçin \`\`\` Yönetici\`\`\` Yetkin Olmalı]`
 });
 bot.command({
